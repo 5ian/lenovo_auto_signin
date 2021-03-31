@@ -5,7 +5,7 @@ import json
 
 USERNAME = os.environ['USERNAME']
 PASSWORD = os.environ['PASSWORD']
-QXID = os.environ['QXID']
+QYID = os.environ['QYID']
 SECRET = os.environ['SECRET']
 ID = os.environ['ID']
 
