@@ -3,11 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
-WID = os.environ['WID']
-SECRET = os.environ['SECRET']
-ID = os.environ['ID']
+USERNAME = '15573640866'
+PASSWORD = '124280430q'
+WID = 'wwf5d9fe00d6eb2a4c'
+SECRET = 'ARWD-THM7m6E7VwgK1xlmzQl2wGlFNAOHs2xUlLahlc'
+ID = '1000002'
 
 HEADER_GET = {
     "user-agent": "Mozilla/5.0 (Linux; Android 11; Mi 10 Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.185 Mobile Safari/537.36/lenovoofficialapp/16112154380982287_10181446134/newversion/versioncode-124/"
