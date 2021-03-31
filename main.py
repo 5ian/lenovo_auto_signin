@@ -52,7 +52,7 @@ def getContinuousDays(session):
     return day
 
 def getkey():
-    url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s'%(QXID,SECRET)
+    url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s'%(QYID,SECRET)
     getkey = requests.get(url)
     return getkey.text
 
