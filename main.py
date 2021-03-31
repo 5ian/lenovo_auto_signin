@@ -5,7 +5,7 @@ import json
 
 USERNAME = os.environ['USERNAME']
 PASSWORD = os.environ['PASSWORD']
-QYID = os.environ['QYID']
+WID = os.environ['WID']
 SECRET = os.environ['SECRET']
 ID = os.environ['ID']
 
@@ -52,7 +52,7 @@ def getContinuousDays(session):
     return day
 
 def getkey():
-    url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s'%(QYID,SECRET)
+    url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s'%(WID, SECRET)
     getkey = requests.get(url)
     return getkey.text
 
